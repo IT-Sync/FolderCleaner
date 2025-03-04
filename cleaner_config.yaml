@@ -1,0 +1,14 @@
+cleanup:
+  directories:
+    - path: "/path/to/directory1"
+      days: 30
+      enabled: true
+      recursive: true
+    - path: "/path/to/directory2"
+      days: 15
+      enabled: true
+      recursive: false
+    - path: "/path/to/directory3"
+      days: 7
+      enabled: false
+      recursive: true
